@@ -125,13 +125,13 @@
         android:ems="10"
         android:hint="Enter phone no"
         android:inputType="phone"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/openCallButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/browseEditText" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/openCallButton"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:text="Call"
@@ -160,6 +160,6 @@
         android:textSize="16sp"
         android:text="Call Log"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/openCallButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
