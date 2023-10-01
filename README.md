@@ -1,5 +1,8 @@
 # MAD_PRACTICAL5_21012011118
 
+What is Intent? Write down types of Intent and types of Intent Action. Create an application which demonstrates implicit Intent for following features. 
+1. Make call to specific number 2. Open specific URL 3. Open Call Log 4. Open Gallery 5. Set Alarm
+
 An "Intent" is a messaging object used in various platforms to request an action from another component of an application, often across different modules or even applications. It serves as a way for different parts of a program to communicate with each other, conveying information about a desired operation or task to be performed. They facilitate communication between different activities and services within an application. 
 
 There are two main types of intents:
